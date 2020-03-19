@@ -25,21 +25,21 @@ Name      | Meaning
 decimal   | decimal128, IEEE 754
 integer   | decimal restricted to integers
 natural   | decimal restricted to non-negative integers
---------- | ------------------------------------------------------------------
+&nbsp;    | &nbsp;
 boolean   | 0 or 1
---------- | ------------------------------------------------------------------
+&nbsp;    | &nbsp;
 bytes     | raw memory, prefixed by a natural size
 unicode   | bytes restricted to valid UTF-8
---------- | ------------------------------------------------------------------
+&nbsp;    | &nbsp;
 duration  | integer number of nanoseconds
 instant   | duration relative to the Unix Epoch (UTC)
 period    | an instant and a duration of time afterward
-          |     TODO: not quite right, since durations can be negative
---------- | ------------------------------------------------------------------
+&nbsp;    | TODO: not quite right, since durations can be negative
+&nbsp;    | &nbsp;
 gregorian | particular YYYY-MM-DD on the Gregorian calendar
 oclock    | natural number of nanoseconds since midnight, less than 8.64e+13
-          |     NOTE: there are 8.64e+13 nanoseconds in a calendar day
---------- | ------------------------------------------------------------------
+&nbsp;    | NOTE: there are 8.64e+13 nanoseconds in a calendar day
+&nbsp;    | &nbsp;
 uuid      | Universally Unique Identifier, RFC 4122
  
 
@@ -50,10 +50,10 @@ Category    | Meaning
 --------    | -------
 array       | zero or more values having a particular type
 record      | a fixed number (zero or more) of named fields, each with a type
-            |     TODO: figure out how express optional fields
-            |           (maybe look at [clojure.spec][12])
+&nbsp;      | TODO: figure out how express optional fields
+&nbsp;      | (maybe look at [clojure.spec][12])
 union       | exactly one from among one or more fields, each with a type
-            |     TODO: have to decide whether the alternatives are named
+&nbsp;      | TODO: have to decide whether the alternatives are named
 enumeration | one or more named, distinct integers
 map         | zero or more pairs of string-labeled fields having the same type
 set         | an order-irrelevant array of distinct values
