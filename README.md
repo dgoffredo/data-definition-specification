@@ -1,6 +1,6 @@
 Data Definition Specification
 =============================
-These are some notes of mine on musings of how to model structured data.
+These are some musings on how to model structured data.
 
 I've been griping about [proto3][1] and the ways in which I dislike using it to
 describe structured data.  At my job we use it and also a variant of [XDR][2].
