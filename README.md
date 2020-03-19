@@ -25,21 +25,21 @@ Name      | Meaning
 decimal   | decimal128, IEEE 754
 integer   | decimal restricted to integers
 natural   | decimal restricted to non-negative integers
-          |
+--------- | ------------------------------------------------------------------
 boolean   | 0 or 1
-          |
+--------- | ------------------------------------------------------------------
 bytes     | raw memory, prefixed by a natural size
 unicode   | bytes restricted to valid UTF-8
-          |
+--------- | ------------------------------------------------------------------
 duration  | integer number of nanoseconds
 instant   | duration relative to the Unix Epoch (UTC)
 period    | an instant and a duration of time afterward
           |     TODO: not quite right, since durations can be negative
-          |
+--------- | ------------------------------------------------------------------
 gregorian | particular YYYY-MM-DD on the Gregorian calendar
 oclock    | natural number of nanoseconds since midnight, less than 8.64e+13
           |     NOTE: there are 8.64e+13 nanoseconds in a calendar day
-          |
+--------- | ------------------------------------------------------------------
 uuid      | Universally Unique Identifier, RFC 4122
  
 
